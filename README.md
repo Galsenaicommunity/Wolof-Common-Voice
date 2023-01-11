@@ -3,9 +3,13 @@
 ![PR](https://img.shields.io/github/issues-pr/Galsenaicommunity/Wolof-Common-Voice)
 
 # Wolof-Common-Voice
-Wolof Text Data Collection for recording on the Mozilla [Common Voice](https://commonvoice.mozilla.org/) platform.
+Wolof Text Data Collection for recording on the Mozilla [Common Voice](https://commonvoice.mozilla.org/) platform.  
+We use the Wolof part of the data collected by [Masakhane](https://www.masakhane.io/) during the [MasakhaNER project](https://github.com/masakhane-io/lacuna_pos_ner). The goal is to split them into sentences so that they can be recorded in the [best conditions](https://commonvoice.mozilla.org/sentence-collector/#/en/how-to) prescribed by Mozilla.
+
+![Drag Racing](common-voice.png)
 
 # Structure
+The project is structured as follows:
 ```
 .
 ├── data
