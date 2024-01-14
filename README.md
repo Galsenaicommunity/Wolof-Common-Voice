@@ -21,11 +21,13 @@ We use the Wolof part of the data collected by [Masakhane](https://www.masakhane
 The project is structured as follows:
 ```
 .
-├── data
+├── data/
 │   └── raw <- initial data from the MasakhaNER project (cf eda-cleaning.ipynb)
 │   ├── intermediate <- cleaned and adapted data to common voice specifications
 │   ├── processed <- ready to upload data
-├── illustration <- contained images used as illusrations in the Readme
+├── illustration/ <- contained images used as illusrations in the Readme
+│   └── common-voice.png
+│   ├── wolof.png
 ├── eda-cleaning.ipynb <- Notebook used for data preparation
 ```
 # Upload
