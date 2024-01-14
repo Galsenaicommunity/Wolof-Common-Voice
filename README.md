@@ -4,16 +4,7 @@
 
 # Wolof-Common-Voice
 Wolof Text Data Collection for recording on the Mozilla [Common Voice](https://commonvoice.mozilla.org/) platform.  
-We use the Wolof part of the data collected by [Masakhane](https://www.masakhane.io/) during the [MasakhaNER project](https://github.com/masakhane-io/lacuna_pos_ner). The goal is to split them into sentences so that they can be recorded in the best conditions prescribed by Mozilla:
-
-* [No copyright](https://en.wikipedia.org/wiki/Public_domain) restrictions ([cc-0](https://creativecommons.org/public-domain/cc0/)) ;
-* Fewer than 15 words per sentence ;
-* Use correct grammar ;
-* Use correct spelling and punctuation ;
-* No numbers and special characters ;
-* No foreign letters ;
-* Include appropriate citation ;
-* Ideally natural and conversational (it should be easy to read the sentence).
+The data comes from the [Masakhane](https://www.masakhane.io/)'s corpus collected as part of the [MasakhaNER project](https://github.com/masakhane-io/lacuna_pos_ner).
 
 ![Common Voice banner](illustration/common-voice.png)
 
@@ -31,7 +22,16 @@ The project is structured as follows:
 ├── eda-cleaning.ipynb <- Notebook used for data preparation
 ```
 # Upload
-`Processed` data have to be uploaded directly on [Common Voice](https://commonvoice.mozilla.org/wo/write) in the `sentence collection` section for review __by users__.
+`Processed` data have to be uploaded directly on [Common Voice](https://commonvoice.mozilla.org/wo/write) in the `sentence collection` section for review __by users__. They have to be splitted first into sentences so that they can be recorded in the best conditions prescribed by Mozilla:
+
+* [No copyright](https://en.wikipedia.org/wiki/Public_domain) restrictions ([cc-0](https://creativecommons.org/public-domain/cc0/)) ;
+* Fewer than 15 words per sentence ;
+* Use correct grammar ;
+* Use correct spelling and punctuation ;
+* No numbers and special characters ;
+* No foreign letters ;
+* Include appropriate citation ;
+* Ideally natural and conversational (it should be easy to read the sentence).
 
 # ToDo
 The corpus after processing (intermediate) contains `13391 sentences` in total: __2391__ in [part 1](data/intermediate/wolof_to_upload_part1.txt) and __11000__ in [part 2](data/intermediate/wolof_to_upload_part2.txt). We currently need to:
