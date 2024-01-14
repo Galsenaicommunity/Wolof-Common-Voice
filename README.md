@@ -30,7 +30,7 @@ The project is structured as follows:
 `Processed` data have to be uploaded directly on [Common Voice](https://commonvoice.mozilla.org/wo/write) in the `sentence collection` section for review __by users__.
 
 # ToDo
-The corpus after processing (intermediate) contains `13400 sentences` in total: __2400__ in [part 1](data/intermediate/wolof_to_upload_part1.txt) and __11400__ in [part 2](data/intermediate/wolof_to_upload_part2.txt). We currently need to:
+The corpus after processing (intermediate) contains `13391 sentences` in total: __2391__ in [part 1](data/intermediate/wolof_to_upload_part1.txt) and __11000__ in [part 2](data/intermediate/wolof_to_upload_part2.txt). We currently need to:
 
 - [ ] Split the data (part 2) into batches of 2000 sentences  
 - __For each batch:__  
@@ -42,7 +42,7 @@ The corpus after processing (intermediate) contains `13400 sentences` in total: 
 - [ ] Making a tutorial on how to get started with the common voice platform  
 - [ ] Organize a datathon to catalyze data collection 
 - Progress of batch cleaning:
-    - [x] Batch 1: [`2,400 sentences`](data/processed/batches/batch-1.txt)
+    - [x] Batch 1: [`2,391 sentences`](data/processed/batches/batch-1.txt)
     - [ ] Batch 2: `2,000 sentences`
     - [ ] Batch 3: `2,000 sentences`
     - [ ] Batch 4: `2,000 sentences`
