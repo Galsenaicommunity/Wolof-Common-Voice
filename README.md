@@ -25,6 +25,8 @@ The project is structured as follows:
 │   └── raw <- initial data from the MasakhaNER project (cf eda-cleaning.ipynb)
 │   ├── intermediate <- cleaned and adapted data to common voice specifications
 │   ├── processed <- ready to upload data
+├── illustration <- contained images used as illusrations in the Readme
+├── eda-cleaning.ipynb <- Notebook used for data preparation
 ```
 # Upload
 `Processed` data have to be uploaded directly on [Common Voice](https://commonvoice.mozilla.org/wo/write) in the `sentence collection` section for review __by users__.
@@ -51,6 +53,7 @@ The corpus after processing (intermediate) contains `13391 sentences` in total: 
     - [ ] Batch 7: `1,000 sentences`
 
 > Wolof is now referenced on Common Voice and you can enter your email on the platform to follow the progress of the project 🥳
+![Common Voice banner](illustration/wolof.png)
 
 # Replicate this project for your language
 If you wish to have your language referenced on Common Voice, just go to the platform and click on `LANGUAGES` then `Request a Language`. Fill in the information and wait for the Mozilla team to contact you. You will then have to open a [Github Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) for [language localization](https://commonvoice.mozilla.org/en/faq#localization) and fill a template. When you get to this stage, you can use [our template](https://github.com/common-voice/common-voice/issues/3861) as inspiration to fill yours.
